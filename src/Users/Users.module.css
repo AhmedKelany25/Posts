@@ -1,0 +1,45 @@
+.posts{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.posts ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+}
+
+.posts ul li {
+ 
+    background-color: rgb(90 169 194);
+    margin-bottom: 10px;
+    color: aliceblue;
+    border-radius: 20px 20px 0 0;
+
+    padding: 20px ;
+    flex: 100%;
+
+}
+.header{
+    border-bottom: 3px solid #fff;
+}
+.title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.title h5{
+    width: 20%;
+
+}
+.title p{
+    /* border-left: 5px solid #fff; */
+
+    width: 80%;
+
+}
